@@ -3,7 +3,7 @@ if(!defined('BASEPATH'))die('Access to this script was rebuked!');
 
 /**
  * ***************************************************************
- * DBS_Controller                                                *
+ * MY_Controller                                                *
  * ***************************************************************
  * This Class extends the functionalities of the parent Class    *
  * ***************************************************************
@@ -12,19 +12,19 @@ if(!defined('BASEPATH'))die('Access to this script was rebuked!');
  * This sub class is in-turn extended by other sub-classes       *
  * ***************************************************************
  * 
- * @package DBS RESERVATION & TICKETING
+ * @package user-defined
  * @author aknessy
  * @copyright 2018/2019
  * @link None
  * 
  */
 
-class DBS_Controller extends CI_Controller
+class MY_Controller extends CI_Controller
 {
     /**
     * @var string
     **/
-    const pageTitle = 'DBS | ';
+    const pageTitle = 'MY | ';
 
     /**
      * Class Constructor
